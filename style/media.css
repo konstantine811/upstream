@@ -1,0 +1,9 @@
+/*==========  Desktop First Method  ==========*/
+@media screen and (max-width: 1278px) {
+  .head-serach__button {
+    display: block;
+    width: 230px;
+    float: none;
+    margin-bottom: 8px; }
+  .head-text__inner {
+    font-size: 3rem; } }
