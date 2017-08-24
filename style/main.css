@@ -186,8 +186,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]).form-input-text {
 
 .description-img__inner {
   position: relative;
-  right: 56px;
-  width: 50vh;
+  right: 55px;
+  width: 309px;
   height: 100%;
   margin-top: 25px; }
 
