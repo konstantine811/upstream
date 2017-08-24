@@ -6,4 +6,42 @@
     float: none;
     margin-bottom: 8px; }
   .head-text__inner {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .head-text__inner--sml {
+    font-size: 36px; }
+  .description-content {
+    margin-left: 40px; } }
+
+@media screen and (max-width: 1312px) {
+  .head-search__text {
+    font-size: 18px; } }
+
+@media screen and (max-width: 1078px) {
+  .head-text__inner {
+    font-size: 2.5rem; }
+  .head-text__inner--sml {
+    font-size: 36px; } }
+
+@media screen and (max-width: 992px) {
+  .description-content {
+    margin-left: 0px; } }
+
+@media screen and (max-width: 784px) {
+  .head-text__inner--sml {
+    font-size: 26px; }
+  .head-text--border:after {
+    top: 29px; } }
+
+@media screen and (max-width: 740px) {
+  .description-content {
+    margin-left: 35px; } }
+
+@media screen and (max-width: 575px) {
+  .description-content {
+    margin-left: 0px; }
+  .head-text__inner--sml {
+    font-size: 22px; } }
+
+@media screen and (max-width: 480px) {
+  .head-text--border:after {
+    display: none; } }
