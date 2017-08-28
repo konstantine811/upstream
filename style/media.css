@@ -1,6 +1,6 @@
 /*==========  Desktop First Method  ==========*/
 @media screen and (max-width: 1278px) {
-  .head-serach__button {
+  .head-search__wrap-button {
     display: block;
     width: 230px;
     float: none;
@@ -10,7 +10,9 @@
   .head-text__inner--sml {
     font-size: 36px; }
   .description-content {
-    margin-left: 40px; } }
+    margin-left: 40px; }
+  .head-search__popup {
+    right: 5px; } }
 
 @media screen and (max-width: 1312px) {
   .head-search__text {
@@ -24,7 +26,10 @@
 
 @media screen and (max-width: 992px) {
   .description-content {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  .head-search__popup {
+    right: 8px;
+    width: 225px; } }
 
 @media screen and (max-width: 784px) {
   .head-text__inner--sml {

@@ -19,6 +19,23 @@ $(document).ready(function() {
 					$(this).siblings('.form-label').css("color", "black");
 				}
 			})
-	})
+	});
+
+	$('#button-sort-by').on('click', function() {
+		var w_popup = $('#sort-popup');
+		var h = w_popup.height();
+		console.log(h);
+		if (h === 0) {
+            w_popup.animate({
+                "height": "134px"
+            },);
+		} else {
+            w_popup.animate({
+                "height": "0"
+            });
+		}
+
+
+	});
 
 });

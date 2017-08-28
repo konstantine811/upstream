@@ -3,7 +3,7 @@
 @import '_variables';
 
 @media screen and (max-width: 1278px) {
-	.head-serach__button {
+	.head-search__wrap-button {
 		display: block;
 		width: 230px;
 		float: none;
@@ -18,6 +18,9 @@
 
 	.description-content {
 		margin-left: 40px;
+	}
+	.head-search__popup {
+		right: 5px;
 	}
 
 }
@@ -41,6 +44,10 @@
 @media screen and (max-width: 992px) {
 	.description-content {
 		margin-left: 0px;
+	}
+	.head-search__popup {
+		right: 8px;
+		width: 225px;
 	}
 }
 
