@@ -355,16 +355,18 @@ input[type=text]:not(.browser-default):focus:not([readonly]).form-input-text {
 
 .description-nav__link {
   position: relative;
-  right: 32px;
+  right: 30px;
   display: block;
   width: 181px;
   height: 42px;
-  padding-top: 10px;
-  padding-left: 29px;
-  color: black; }
+  color: black;
+  border-width: 0;
+  background-color: transparent; }
   .description-nav__link:hover {
     text-decoration: none;
     color: black; }
+  .description-nav__link:focus {
+    background-color: transparent; }
 
 .description-img__inner {
   position: relative;
